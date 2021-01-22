@@ -3069,11 +3069,6 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		-moz-transition: background-color 0.2s ease-in-out;
-		-webkit-transition: background-color 0.2s ease-in-out;
-		-ms-transition: background-color 0.2s ease-in-out;
-		transition: background-color 0.2s ease-in-out;
-		background-color: rgba(53, 56, 73, 0.95);
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
@@ -4144,5 +4139,10 @@ input, select, textarea {
 
 	}
 	
+#GH {
+	border-radius: 5px;
+	box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
+	padding: 0 1.35em;
+}
 
 
